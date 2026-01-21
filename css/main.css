@@ -1,0 +1,96 @@
+/* CSS Document */
+body {
+    background-color: #333;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+}
+
+/* Main wrapper */
+#page_wrapper {
+    width: 640px;
+    margin: 30px auto;
+    background-color: #f4f4ee;
+    border: 4px solid #ccc;
+    overflow: hidden;
+    background-image: url(../img/page_bg.jpg);
+    background-repeat: repeat;
+}
+
+/* Header */
+#page_header {
+    background-color: #3a3b22;
+    background-image: url(../img/header.jpg);
+    background-position: right top;
+    background-repeat: no-repeat;
+    padding: 30px 20px 20px 20px;
+}
+
+/* Main title */
+#page_header h1 {
+    margin: 0;
+    font-size: 2.3em;
+    letter-spacing: 10px;
+    color: #fcf8e3;
+}
+
+/* Subtitle */
+#page_header h3 {
+    margin: 0;
+    color: #e2d179;
+    font-weight: normal;
+    letter-spacing: 2px;
+}
+
+/* Right sidebar */
+#right_side {
+    float: right;
+    width: 160px;
+}
+
+/* Sidebar heading */
+#right_side h3 {
+    background-color: #3a3b22;
+    color: #fcf8e3;
+    margin: 10px;
+    padding: 10px 5px;
+}
+
+/* Sidebar section labels */
+#right_side p {
+    margin: 10px;
+    padding: 5px;
+    font-weight: bold;
+}
+
+/* Sidebar list items */
+#right_side li {
+    padding-bottom: 5px;
+}
+
+/* Left content area */
+#left_side {
+    float: left;
+    width: 460px; /* FIX: 480px was too wide and caused overlap */
+    padding: 0 10px 20px 10px;
+    word-spacing: 3px;
+}
+
+/* Section titles */
+#left_side h2 {
+    margin-top: 20px;
+    padding-bottom: 5px;
+    border-bottom: 1px solid #a0410d; /* FIX: previously invalid */
+    text-transform: uppercase;
+    color: #a0410d;
+}
+
+/* Footer */
+#page_footer {
+    clear: both;
+    color: #fcf8e3;
+    text-align: center;
+    padding: 6px;
+    font-size: 0.9em;
+    background-image: url(../img/footer.jpg);
+    background-repeat: repeat-x;
+}
